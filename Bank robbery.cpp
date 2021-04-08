@@ -88,15 +88,15 @@ int main(void){
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	
 	printf("Welcome, Mr.billionare!\n\n\n");
-	printf("Auth your name at probgame.com\n\n\n");
-	printf("Wanna go probgame.com? [Y/n] ");
+	printf("Authentication success\n\n\n");
+	printf("Wanna see source code? [Y/n] ");
 	
 	scanf("%c", &enter);
 	
 	if(enter == 'Y' || enter == 'y'){
 		
 		sleep(1);
-		system("\n\n\nstart chrome http://probgame.com/");
+		system("\n\n\nstart chrome https://github.com/Iamcyalume/Bank-Robbery");
 		
 	}else goto ret;
 	
